@@ -219,73 +219,73 @@ $EndComp
 $Comp
 L power:GND #PWR0104
 U 1 1 5EF05C6D
-P 1800 4650
-F 0 "#PWR0104" H 1800 4400 50  0001 C CNN
-F 1 "GND" V 1805 4522 50  0000 R CNN
-F 2 "" H 1800 4650 50  0001 C CNN
-F 3 "" H 1800 4650 50  0001 C CNN
-	1    1800 4650
-	0    1    1    0   
+P 1800 5250
+F 0 "#PWR0104" H 1800 5000 50  0001 C CNN
+F 1 "GND" V 1805 5122 50  0000 R CNN
+F 2 "" H 1800 5250 50  0001 C CNN
+F 3 "" H 1800 5250 50  0001 C CNN
+	1    1800 5250
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	1900 4650 1800 4650
+	1900 5250 1800 5250
 Wire Wire Line
-	2900 4650 3000 4650
-Text GLabel 3000 4650 2    50   Input ~ 0
+	2900 5150 3000 5150
+Text GLabel 3000 5150 2    50   Input ~ 0
 PB_MID
 Wire Wire Line
-	1900 4750 1800 4750
-Text GLabel 1800 4750 0    50   Input ~ 0
+	1900 5150 1800 5150
+Text GLabel 1800 5150 0    50   Input ~ 0
 PB_LEFT
 Wire Wire Line
-	2900 4750 3000 4750
-Text GLabel 3000 4750 2    50   Input ~ 0
+	2900 5050 3000 5050
+Text GLabel 3000 5050 2    50   Input ~ 0
 PB_UP
 Wire Wire Line
-	1900 4850 1800 4850
-Text GLabel 1800 4850 0    50   Input ~ 0
+	1900 5050 1800 5050
+Text GLabel 1800 5050 0    50   Input ~ 0
 PB_RIGHT
 Wire Wire Line
-	2900 4850 3000 4850
-Text GLabel 3000 4850 2    50   Input ~ 0
+	2900 4950 3000 4950
+Text GLabel 3000 4950 2    50   Input ~ 0
 PB_DOWN
 $Comp
 L power:VCC #PWR0105
 U 1 1 5EF05C80
-P 1800 5250
-F 0 "#PWR0105" H 1800 5100 50  0001 C CNN
-F 1 "VCC" V 1818 5377 50  0000 L CNN
-F 2 "" H 1800 5250 50  0001 C CNN
-F 3 "" H 1800 5250 50  0001 C CNN
-	1    1800 5250
-	0    -1   -1   0   
+P 1800 4650
+F 0 "#PWR0105" H 1800 4500 50  0001 C CNN
+F 1 "VCC" V 1818 4777 50  0000 L CNN
+F 2 "" H 1800 4650 50  0001 C CNN
+F 3 "" H 1800 4650 50  0001 C CNN
+	1    1800 4650
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	1900 5250 1800 5250
+	1900 4650 1800 4650
 Text GLabel 1800 4950 0    50   Input ~ 0
 P3_1
-Text GLabel 3000 4950 2    50   Input ~ 0
+Text GLabel 3000 4850 2    50   Input ~ 0
 P1_7
-Text GLabel 1800 5050 0    50   Input ~ 0
+Text GLabel 1800 4850 0    50   Input ~ 0
 P1_5
-Text GLabel 3000 5050 2    50   Input ~ 0
+Text GLabel 3000 4750 2    50   Input ~ 0
 P1_3
-Text GLabel 1800 5150 0    50   Input ~ 0
+Text GLabel 1800 4750 0    50   Input ~ 0
 P1_1
-Text GLabel 3000 5150 2    50   Input ~ 0
+Text GLabel 3000 4650 2    50   Input ~ 0
 P1_0
 Wire Wire Line
 	1900 4950 1800 4950
 Wire Wire Line
-	1900 5050 1800 5050
+	1900 4850 1800 4850
 Wire Wire Line
-	1900 5150 1800 5150
+	1900 4750 1800 4750
 Wire Wire Line
-	2900 5150 3000 5150
+	2900 4650 3000 4650
 Wire Wire Line
-	2900 5050 3000 5050
+	2900 4750 3000 4750
 Wire Wire Line
-	2900 4950 3000 4950
+	2900 4850 3000 4850
 $Comp
 L power:GND #PWR0106
 U 1 1 5EF0CA33
@@ -528,4 +528,8 @@ F 3 "" H 2400 4250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2400 4350 2400 4250
+Text Notes 2500 2250 0    50   ~ 0
+Clickwheel Connector
+Text Notes 2500 4400 0    50   ~ 0
+Mainboard Passthrough\n
 $EndSCHEMATC
